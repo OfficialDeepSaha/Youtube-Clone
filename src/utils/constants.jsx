@@ -1,5 +1,5 @@
 import React from "react";
-
+import { MdOutlinePodcasts } from "react-icons/md";
 import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
 import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
 import { CgMusicNote } from "react-icons/cg";
@@ -29,8 +29,16 @@ export const categories = [
         name: "Fashion & beauty",
         icon: <GiEclipse />,
         type: "category",
+        
+    },
+
+    {
+        name: "Podcasts",
+        icon: <MdOutlinePodcasts />,
+        type: "category",
         divider: true,
     },
+
     { name: "Settings", icon: <FiSettings />, type: "menu" },
     { name: "Report History", icon: <AiOutlineFlag />, type: "menu" },
     { name: "Help", icon: <FiHelpCircle />, type: "menu" },

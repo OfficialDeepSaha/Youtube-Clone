@@ -1,0 +1,20 @@
+.categoriesBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  background-color: #333;
+}
+
+.categoriesBar span {
+  padding: 6px 12px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.categoriesBar span:hover {
+  background-color: #777;
+}
